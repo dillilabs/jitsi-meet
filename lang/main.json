@@ -763,8 +763,8 @@
         "accessibilityLabel": {
             "join": "Tap to join",
             "roomname": "Enter room name"
-        },
-        "appDescription": "{{app}} is a fully encrypted video conferencing solution that respects your privacy",
+	},
+        "appDescription": "{{app}} is an end-to-end encrypted, fully featured and performant web conference solution",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"

@@ -764,7 +764,7 @@
             "join": "Tap to join",
             "roomname": "Enter room name"
         },
-        "appDescription": "{{app}} is a fully encrypted video conferencing solution proudly Made in India with ♥.",
+        "appDescription": "{{app}} is a fully encrypted video conferencing solution that respects your privacy",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"
@@ -788,7 +788,7 @@
         "roomnameHint": "Enter the name or URL of the room you want to join. You may make a name up, just let the people you are meeting know it so that they enter the same name.",
         "sendFeedback": "Send feedback",
         "terms": "Terms",
-        "title": "Secure, Scalable and Smart video conferencing."
+        "title": "Secure, Scalable and User-Friendly Video Conferencing"
     },
     "lonelyMeetingExperience": {
         "button": "Invite others",

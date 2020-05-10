@@ -14,8 +14,20 @@ var interfaceConfig = {
      *
      * Note: this mode is experimental and subject to breakage.
      */
+<<<<<<< HEAD
     AUTO_PIN_LATEST_SCREEN_SHARE: 'remote-only',
     BRAND_WATERMARK_LINK: '',
+=======
+    DISABLE_VIDEO_BACKGROUND: false,
+
+    INITIAL_TOOLBAR_TIMEOUT: 20000,
+    TOOLBAR_TIMEOUT: 4000,
+    TOOLBAR_ALWAYS_VISIBLE: false,
+    DEFAULT_REMOTE_DISPLAY_NAME: 'Guest',
+    DEFAULT_LOCAL_DISPLAY_NAME: 'me',
+    SHOW_JITSI_WATERMARK: true,
+    JITSI_WATERMARK_LINK: 'https://milo.dillilabs.com',
+>>>>>>> adding new app store icons, fixing iOS config, default name is Guest
 
     // if watermark is disabled by default, it can be shown only for guests
     SHOW_WATERMARK_FOR_GUESTS: true,

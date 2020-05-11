@@ -1,4 +1,4 @@
-package org.jitsi.meet;
+package com.dillilabs.milo;
 
 import android.net.Uri;
 import android.util.Log;

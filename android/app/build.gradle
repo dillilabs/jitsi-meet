@@ -17,7 +17,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId 'com.dillilabs.milo'
+        applicationId 'org.jitsi.meet'
         versionCode vcode
         versionName project.appVersion
 

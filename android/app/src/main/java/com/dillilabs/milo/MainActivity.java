@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet;
+package com.dillilabs.milo;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -22,7 +22,6 @@ import android.os.Build;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.KeyEvent;
-import androidx.annotation.Nullable;
 
 import org.jitsi.meet.sdk.JitsiMeet;
 import org.jitsi.meet.sdk.JitsiMeetActivity;
@@ -32,6 +31,8 @@ import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Map;
+
+import androidx.annotation.Nullable;
 
 /**
  * The one and only Activity that the Jitsi Meet app needs. The
@@ -53,7 +54,7 @@ public class MainActivity extends JitsiMeetActivity {
 
     @Override
     protected boolean extraInitialize() {
-        Log.d(this.getClass().getSimpleName(), "LIBRE_BUILD="+BuildConfig.LIBRE_BUILD);
+        Log.d(this.getClass().getSimpleName(), "LIBRE_BUILD="+ BuildConfig.LIBRE_BUILD);
 
         // Setup Crashlytics and Firebase Dynamic Links
         // Here we are using reflection since it may have been disabled at compile time.

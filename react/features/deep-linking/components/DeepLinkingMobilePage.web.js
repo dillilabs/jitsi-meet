@@ -132,9 +132,6 @@ class DeepLinkingMobilePage extends Component<Props> {
                             : null
                     }
                     <p className = { `${_SNS}__text` }>
-                        { t(`${_TNS}.appNotInstalled`, { app: NATIVE_APP_NAME }) }
-                    </p>
-                    <p className = { `${_SNS}__text` }>
                         { t(`${_TNS}.ifHaveApp`) }
                     </p>
                     <a
@@ -170,10 +167,10 @@ class DeepLinkingMobilePage extends Component<Props> {
                             </a>
                     }
                     { renderPromotionalFooter() }
-                    <DialInSummary
+                    {/*<DialInSummary
                         className = 'deep-linking-dial-in'
                         clickableNumbers = { true }
-                        room = { _room } />
+                        room = { _room } />*/}
                 </div>
             </div>
         );

@@ -127,30 +127,32 @@ class DeepLinkingMobilePage extends Component<Props> {
                             : null
                     }
                     <p className = { `${_SNS}__text` }>
-                        { t(`${_TNS}.appNotInstalled`, { app: NATIVE_APP_NAME }) }
+                        {/* t(`${_TNS}.appNotInstalled`, { app: NATIVE_APP_NAME }) */}
+                        Milo is currently avaiable on Desktop only. Please re-create/re-join the conference from a Desktop using Google Chrome or Mozilla Firefox browser.
                     </p>
-                    <a
+                    {/*<a
                         { ...onOpenLinkProperties }
                         href = { this._generateDownloadURL() }
                         onClick = { this._onDownloadApp }>
                         <button className = { downloadButtonClassName }>
                             { t(`${_TNS}.downloadApp`) }
                         </button>
-                    </a>
-                    <a
+                    </a>*/}
+                    {/*<a
                         { ...onOpenLinkProperties }
                         className = { `${_SNS}__href` }
                         href = { generateDeepLinkingURL() }
                         onClick = { this._onOpenApp }>
+                        */}
                         {/* <button className = { `${_SNS}__button` }> */}
-                        { t(`${_TNS}.openApp`) }
+                        {/* t(`${_TNS}.openApp`) */}
                         {/* </button> */}
-                    </a>
+                    {/*</a>*/}
                     { renderPromotionalFooter() }
-                    <DialInSummary
+                    {/*<DialInSummary
                         className = 'deep-linking-dial-in'
                         clickableNumbers = { true }
-                        room = { _room } />
+                        room = { _room } />*/}
                 </div>
             </div>
         );

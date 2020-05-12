@@ -238,7 +238,7 @@ var interfaceConfig = {
     /**
      * Specify the Android app package name.
      */
-    // ANDROID_APP_PACKAGE: 'org.jitsi.meet',
+    ANDROID_APP_PACKAGE: 'com.dillilabs.milo',
 
     /**
      * Override the behavior of some notifications to remain displayed until

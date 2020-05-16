@@ -185,12 +185,6 @@ class CalendarList extends AbstractPage<Props> {
 
         return (
             <div className = 'meetings-list-empty'>
-                <p className = 'description'>
-                    { t('welcomepage.connectCalendarText', {
-                        app: interfaceConfig.APP_NAME,
-                        provider: interfaceConfig.PROVIDER_NAME
-                    }) }
-                </p>
                 <div
                     className = 'button'
                     onClick = { this._onOpenSettings }>

@@ -334,7 +334,7 @@
         "answer": "Answer",
         "audioCallTitle": "Incoming call",
         "decline": "Dismiss",
-        "productLabel": "from Milo",
+        "productLabel": "from {{app}}",
         "videoCallTitle": "Incoming video call"
     },
     "info": {
@@ -864,7 +864,7 @@
             "join": "Tap to join",
             "roomname": "Enter room name"
 	},
-        "appDescription": "{{app}} is an end-to-end encrypted, fully featured and performant web conference solution",
+        "appDescription": "{{app}} allows you to instantly start a video conference with real-time collaborative screen sharing and document editing capabilities. {{app}} is designed to protect your privacy and secure your data. Get started by inviting your friends, family or team now!",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"
@@ -889,7 +889,7 @@
         "roomnameHint": "Enter the name or URL of the room you want to join. You may make a name up, just let the people you are meeting know it so that they enter the same name.",
         "sendFeedback": "Send feedback",
         "terms": "Terms",
-        "title": "Secure, Scalable and User-Friendly Video Conferencing"
+        "title": "Safe & Simple Video Conferencing"
     },
     "lonelyMeetingExperience": {
         "button": "Invite others",

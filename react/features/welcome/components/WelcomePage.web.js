@@ -164,10 +164,12 @@ class WelcomePage extends AbstractWelcomePage {
         const showResponsiveText = this._shouldShowResponsiveText();
 
         return (
+            
             <div
                 className = { `welcome ${showAdditionalContent
                     ? 'with-content' : 'without-content'}` }
                 id = 'welcome_page'>
+                <div class="corner-ribbon bottom-right sticky red shadow">Beta</div>
                 <div className = 'welcome-watermark'>
                     <Watermarks />
                 </div>

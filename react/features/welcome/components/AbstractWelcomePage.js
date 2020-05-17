@@ -77,7 +77,7 @@ export class AbstractWelcomePage extends Component<Props, *> {
         generatedRoomname: '',
         joining: false,
         room: '',
-        roomPlaceholder: '',
+        roomPlaceholder: 'enter a conference name',
         updateTimeoutId: undefined
     };
 
@@ -91,11 +91,11 @@ export class AbstractWelcomePage extends Component<Props, *> {
         super(props);
 
         // Bind event handlers so they are only bound once per instance.
-        this._animateRoomnameChanging
-            = this._animateRoomnameChanging.bind(this);
+        // this._animateRoomnameChanging
+        //     = this._animateRoomnameChanging.bind(this);
         this._onJoin = this._onJoin.bind(this);
         this._onRoomChange = this._onRoomChange.bind(this);
-        this._updateRoomname = this._updateRoomname.bind(this);
+        // this._updateRoomname = this._updateRoomname.bind(this);
     }
 
     /**

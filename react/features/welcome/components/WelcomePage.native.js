@@ -74,7 +74,7 @@ class WelcomePage extends AbstractWelcomePage {
     componentDidMount() {
         super.componentDidMount();
 
-        this._updateRoomname();
+        // this._updateRoomname();
 
         const { dispatch } = this.props;
 

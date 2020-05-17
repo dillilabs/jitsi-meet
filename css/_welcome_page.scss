@@ -36,18 +36,18 @@ body.welcome-page {
             z-index: $zindex2;
         }
 
-        .header-image {
-            background-image: url(../images/welcome_page/featured.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            height: 209px;
-            width: 1070px;
-            font-size: 1rem;
-            font-weight: 400;
-            line-height: 24px;
-            margin-top: 135px;
-        }
+        // .header-image {
+        //     background-image: url(../images/welcome_page/featured.png);
+        //     background-repeat: no-repeat;
+        //     background-position: center;
+        //     background-size: contain;
+        //     height: 209px;
+        //     width: 1070px;
+        //     font-size: 1rem;
+        //     font-weight: 400;
+        //     line-height: 24px;
+        //     margin-top: 135px;
+        // }
 
         .header-text-title {
             color: $welcomePageTitleColor;

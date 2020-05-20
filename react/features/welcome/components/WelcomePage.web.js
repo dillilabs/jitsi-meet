@@ -391,6 +391,7 @@ class WelcomePage extends AbstractWelcomePage {
      * @returns {boolean}
      */
     _shouldShowAdditionalContent() {
+        console.log(interfaceConfig.DISPLAY_WELCOME_PAGE_CONTENT);
         return interfaceConfig.DISPLAY_WELCOME_PAGE_CONTENT
             && this._additionalContentTemplate
             && this._additionalContentTemplate.content

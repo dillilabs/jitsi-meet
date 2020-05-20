@@ -11,6 +11,8 @@ body.welcome-page {
     justify-content: space-between;
     min-height: 100vh;
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 
     .header {
         background-image: $welcomePageHeaderBackground;
@@ -200,17 +202,18 @@ body.welcome-page {
 /* The ribbons */
 
 .corner-ribbon{
-  width: 200px;
+  width: 170px;
   background: #e43;
   position: absolute;
   top: 25px;
   left: -50px;
   text-align: center;
-  line-height: 50px;
+  line-height: 16px;
   letter-spacing: 1px;
   color: #f0f0f0;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  z-index: 999;
 }
 
 /* Custom styles */

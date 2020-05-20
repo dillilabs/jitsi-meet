@@ -165,12 +165,12 @@ class WelcomePage extends AbstractWelcomePage {
         const showResponsiveText = this._shouldShowResponsiveText();
 
         return (
-            
+            <div>
+            <div class="corner-ribbon top-left sticky red shadow">Beta</div>
             <div
                 className = { `welcome ${showAdditionalContent
                     ? 'with-content' : 'without-content'}` }
                 id = 'welcome_page'>
-                <div class="corner-ribbon bottom-right sticky red shadow">Beta</div>
                 <div className = 'welcome-watermark'>
                     <Watermarks defaultJitsiLogoURL = { DEFAULT_WELCOME_PAGE_LOGO_URL } />
                 </div>
@@ -243,6 +243,7 @@ class WelcomePage extends AbstractWelcomePage {
                         className = 'welcome-page-content'
                         ref = { this._setAdditionalContentRef } />
                     : null }
+            </div>
             </div>
         );
     }

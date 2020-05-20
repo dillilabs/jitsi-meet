@@ -226,12 +226,12 @@ class WelcomePage extends AbstractWelcomePage {
                     </div>
                     { this._renderTabs() }
                 </div>
-                { showAdditionalContent
+            </div>
+            { showAdditionalContent
                     ? <div
                         className = 'welcome-page-content'
                         ref = { this._setAdditionalContentRef } />
                     : null }
-            </div>
             </div>
         );
     }

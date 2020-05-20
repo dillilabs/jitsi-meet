@@ -231,10 +231,11 @@ body.welcome-page {
             height: $welcomePageWatermarkHeight;
         }
     }
+}
 
-    .welcome-page-content{
-        background: #fff;
-    }
+.welcome-page-content{
+    background: #fff;
+    color: #5f6368;
 }
 
 /* The ribbons */

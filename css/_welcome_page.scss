@@ -242,7 +242,7 @@ body.welcome-page {
 /* The ribbons */
 
 .corner-ribbon{
-  width: 170px;
+  width: 66px;
   background: #e43;
   position: absolute;
   top: 25px;
@@ -251,8 +251,8 @@ body.welcome-page {
   line-height: 16px;
   letter-spacing: 1px;
   color: #f0f0f0;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+  /*transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);*/
   z-index: 999;
 }
 
@@ -276,11 +276,11 @@ body.welcome-page {
 }
 
 .corner-ribbon.top-right{
-  top: 25px;
-  right: -50px;
+  top: 2px;
+  right: 2px;
   left: auto;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  /*transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);*/
 }
 
 .corner-ribbon.bottom-left{

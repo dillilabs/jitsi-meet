@@ -198,7 +198,7 @@ body.welcome-page {
 }
 
 .welcome-page-content{
-    background: #fff;
+    background: #e8eaed;
     color: #5f6368;
     padding: 20px !important;
 }
@@ -215,8 +215,6 @@ body.welcome-page {
   line-height: 16px;
   letter-spacing: 1px;
   color: #f0f0f0;
-  /*transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);*/
   z-index: 999;
 }
 
@@ -232,38 +230,11 @@ body.welcome-page {
 
 /* Different positions */
 
-.corner-ribbon.top-left{
-  top: 25px;
-  left: -50px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
 .corner-ribbon.top-right{
   top: 2px;
   right: 2px;
   left: auto;
-  /*transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);*/
 }
-
-.corner-ribbon.bottom-left{
-  top: auto;
-  bottom: 25px;
-  left: -50px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-.corner-ribbon.bottom-right{
-  top: auto;
-  right: -50px;
-  bottom: 25px;
-  left: auto;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
 /* Colors */
 
 .corner-ribbon.white{background: #f0f0f0; color: #555;}

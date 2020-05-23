@@ -103,7 +103,7 @@ body.welcome-page {
                 }
 
                 ::placeholder {
-                    color: #253858;
+                    color: lightgrey;
                 }
             }
 
@@ -257,7 +257,7 @@ body.welcome-page {
 
 .column a {
     text-decoration: none;
-    color: #5f6368;
+    color: #2F2C60 !important;
 }
   
 /* Clear floats after the columns */

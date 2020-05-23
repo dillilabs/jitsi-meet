@@ -239,7 +239,10 @@ export function updateCalendarEvent(id: string, calendarId: string): Function {
         }
 
         const { locationURL } = getState()['features/base/connection'];
-        const newRoomName = generateRoomWithoutSeparator();
+        // DILLI LABS - START
+        // const newRoomName = generateRoomWithoutSeparator();
+        const newRoomName = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        // DILLI LABS - END
         let href = locationURL.href;
 
         href.endsWith('/') || (href += '/');

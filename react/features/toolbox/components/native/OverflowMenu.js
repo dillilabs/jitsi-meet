@@ -139,7 +139,7 @@ class OverflowMenu extends PureComponent<Props, State> {
                     <LiveStreamButton { ...buttonProps } />
                     <VideoShareButton { ...buttonProps } />
                     <RoomLockButton { ...buttonProps } />
-                    <ClosedCaptionButton { ...buttonProps } />
+                    {/* <ClosedCaptionButton { ...buttonProps } /> */}
                     <SharedDocumentButton { ...buttonProps } />
                     <HelpButton { ...buttonProps } />
                 </Collapsible>

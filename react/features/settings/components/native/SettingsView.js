@@ -177,7 +177,7 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                     </FormRow>
                     <FormSectionHeader
                         label = 'settingsView.conferenceSection' />
-                    <FormRow
+                    {/* <FormRow
                         fieldSeparator = { true }
                         label = 'settingsView.serverURL'
                         layout = 'column'>
@@ -191,7 +191,7 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                             placeholder = { this.props._serverURL }
                             textContentType = { 'URL' } // iOS only
                             value = { serverURL } />
-                    </FormRow>
+                    </FormRow> */}
                     <FormRow
                         fieldSeparator = { true }
                         label = 'settingsView.startWithAudioMuted'>
@@ -203,14 +203,6 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                         <Switch
                             onValueChange = { this._onStartVideoMutedChange }
                             value = { startWithVideoMuted } />
-                    </FormRow>
-                    <FormSectionHeader
-                        label = 'settingsView.buildInfoSection' />
-                    <FormRow
-                        label = 'settingsView.version'>
-                        <Text>
-                            {`${AppInfo.version} build ${AppInfo.buildNumber}`}
-                        </Text>
                     </FormRow>
                     <FormSectionHeader
                         label = 'settingsView.advanced' />

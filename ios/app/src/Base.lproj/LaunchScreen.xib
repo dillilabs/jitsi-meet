@@ -17,7 +17,7 @@
                     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.090196078431372548" green="0.62745098039215685" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.18344694380000001" green="0.17447197440000001" blue="0.37801489230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="4B8-Xf-NDE" secondAttribute="bottom" id="aFF-BR-glX"/>
                 <constraint firstItem="4B8-Xf-NDE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="glR-YN-1GF"/>

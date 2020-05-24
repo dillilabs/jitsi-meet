@@ -8,7 +8,7 @@ import { connect } from '../../base/redux';
 
 import { HELP_VIEW_MODAL_ID } from '../constants';
 
-const DEFAULT_HELP_CENTRE_URL = 'https://milo.dillilabs.com/faq.html';
+const DEFAULT_HELP_CENTRE_URL = 'https://www.dillilabs.com/help-center-milo/';
 
 type Props = {
 

@@ -25,12 +25,12 @@ import styles, { SIDEBAR_AVATAR_SIZE } from './styles';
 /**
  * The URL at which the privacy policy is available to the user.
  */
-const PRIVACY_URL = 'https://milo.dillilabs.com/privacy';
+const PRIVACY_URL = 'https://www.dillilabs.com/privacy-policy-milo/';
 
 /**
  * The URL at which the terms (of service/use) are available to the user.
  */
-const TERMS_URL = 'https://milo.dillilabs.com/terms';
+const TERMS_URL = 'https://www.dillilabs.com/terms-of-service-milo/';
 
 type Props = {
 

@@ -762,7 +762,7 @@
     "welcomepage": {
         "accessibilityLabel": {
             "join": "Tap to join",
-            "roomname": "Enter room name"
+            "roomname": "Enter conference name"
 	},
         "appDescription": "{{app}} allows you to instantly start a video conference with real-time collaborative screen sharing and document editing capabilities. {{app}} is designed to protect your privacy and secure your data. Get started by inviting your friends, family or team now!",
         "audioVideoSwitch": {
@@ -784,7 +784,7 @@
         "recentListDelete": "Delete",
         "recentListEmpty": "Your recent list is currently empty. Chat with your team and you will find all your recent meetings here.",
         "reducedUIText": "Welcome to {{app}}!",
-        "roomname": "Enter room name",
+        "roomname": "Enter conference name to create or join",
         "roomnameHint": "Enter the name or URL of the room you want to join. You may make a name up, just let the people you are meeting know it so that they enter the same name.",
         "sendFeedback": "Send feedback",
         "terms": "Terms",

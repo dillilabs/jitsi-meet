@@ -419,7 +419,11 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
+<<<<<<< HEAD
   trunk:
+=======
+  https://github.com/CocoaPods/Specs.git:
+>>>>>>> iOS watch icons; modifying Android icons; bumping up Android/iOS versions; re-ordering the Overflow menu options;
     - Amplitude-iOS
     - AppAuth
     - boost-for-react-native
@@ -589,6 +593,6 @@ SPEC CHECKSUMS:
   RNWatch: a5320c959c75e72845c07985f3e935e58998f1d3
   Yoga: 7b4209fda2441f99d54dd6cf4c82b094409bb68f
 
-PODFILE CHECKSUM: 082858daebbe170e7a490de433e7f2a99e0c3701
+PODFILE CHECKSUM: 1efd8b27a92a999af6c272888a2273fb74ddff40
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.9.2

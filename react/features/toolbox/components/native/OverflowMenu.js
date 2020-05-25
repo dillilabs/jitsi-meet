@@ -126,21 +126,20 @@ class OverflowMenu extends PureComponent<Props, State> {
                 onCancel = { this._onCancel }
                 onSwipe = { this._onSwipe }
                 renderHeader = { this._renderMenuExpandToggle }>
+                <InviteButton { ...buttonProps } />                
+                <ToggleCameraButton { ...buttonProps } />
                 <AudioRouteButton { ...buttonProps } />
-                <InviteButton { ...buttonProps } />
-                <AudioOnlyButton { ...buttonProps } />
-                <RaiseHandButton { ...buttonProps } />
-                <LobbyModeButton { ...buttonProps } />
+                <TileViewButton { ...buttonProps } />
+                <RoomLockButton { ...buttonProps } />
+                <SharedDocumentButton { ...buttonProps } />
                 <MoreOptionsButton { ...moreOptionsButtonProps } />
                 <Collapsible collapsed = { !showMore }>
-                    <ToggleCameraButton { ...buttonProps } />
-                    <TileViewButton { ...buttonProps } />
                     <RecordButton { ...buttonProps } />
                     <LiveStreamButton { ...buttonProps } />
-                    <VideoShareButton { ...buttonProps } />
-                    <RoomLockButton { ...buttonProps } />
                     {/* <ClosedCaptionButton { ...buttonProps } /> */}
-                    <SharedDocumentButton { ...buttonProps } />
+                    <AudioOnlyButton { ...buttonProps } />
+                    <RaiseHandButton { ...buttonProps } />
+                    <LobbyModeButton { ...buttonProps } />
                     <HelpButton { ...buttonProps } />
                 </Collapsible>
             </BottomSheet>

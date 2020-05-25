@@ -77,7 +77,7 @@ export class AbstractWelcomePage extends Component<Props, *> {
         generatedRoomname: '',
         joining: false,
         room: '',
-        roomPlaceholder: 'E.g. AcmeCorpMeeting',
+        roomPlaceholder: 'e.g. DilliLabsMeeting',
         updateTimeoutId: undefined
     };
 

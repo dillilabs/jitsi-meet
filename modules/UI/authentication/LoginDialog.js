@@ -10,9 +10,12 @@ import {
  * @returns {string} html string
  */
 function getPasswordInputHtml() {
-    const placeholder = config.hosts.authdomain
-        ? 'user identity'
-        : 'user@domain.net';
+    // const placeholder = config.hosts.authdomain
+    //     ? 'user identity'
+    //     : 'user@domain.net';
+    
+    // DILLI LABS 
+    const placeholder = "username";
 
     return `
         <input name="username" type="text"

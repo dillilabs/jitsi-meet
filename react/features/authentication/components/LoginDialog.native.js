@@ -1,7 +1,7 @@
 /* @flow */
 
 import React, { Component } from 'react';
-import { Text, TextInput, View } from 'react-native';
+import { Text, TextInput, View, Linking } from 'react-native';
 import { connect as reduxConnect } from 'react-redux';
 import type { Dispatch } from 'redux';
 
@@ -165,7 +165,7 @@ class LoginDialog extends Component<Props, State> {
                         autoCapitalize = { 'none' }
                         autoCorrect = { false }
                         onChangeText = { this._onUsernameChange }
-                        placeholder = { 'user@domain.com' }
+                        placeholder = { 'username' }
                         placeholderTextColor = { PLACEHOLDER_COLOR }
                         style = { _dialogStyles.field }
                         underlineColorAndroid = { FIELD_UNDERLINE }
@@ -183,6 +183,10 @@ class LoginDialog extends Component<Props, State> {
                         underlineColorAndroid = { FIELD_UNDERLINE }
                         value = { this.state.password } />
                     { this._renderMessage() }
+                    <Text>
+                        {"\n"}
+                        Email <Text style={{color: 'blue'}} onPress={() => Linking.openURL('mailto:support@miloconference.com?subject=Register&body=I would like to request host credentials for Milo.')}> support@miloconference.com</Text> to get host credentials.
+                    </Text>
                 </View>
             </CustomSubmitDialog>
         );

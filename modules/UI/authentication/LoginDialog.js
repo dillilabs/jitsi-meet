@@ -23,7 +23,10 @@ function getPasswordInputHtml() {
                placeholder=${placeholder} autofocus>
         <input name="password" type="password"
                class="input-control"
-               data-i18n="[placeholder]dialog.userPassword">`;
+               data-i18n="[placeholder]dialog.userPassword">
+        <div><span>Email <a href='mailto:support@miloconference.com?subject=Register&body=I would like to request host credentials for Milo.'> support@miloconference.com</a> to get host credentials.</span></div>
+        `;
+        
 }
 
 /**

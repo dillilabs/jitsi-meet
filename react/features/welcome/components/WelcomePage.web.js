@@ -166,7 +166,7 @@ class WelcomePage extends AbstractWelcomePage {
 
         return (
             <div>
-            <div class="corner-ribbon top-right red shadow">Beta</div>
+            {/* <div class="corner-ribbon top-right red shadow">Beta</div> */}
             <div
                 className = { `welcome ${showAdditionalContent
                     ? 'with-content' : 'without-content'}` }

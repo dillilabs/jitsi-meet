@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B26BE6E1EC5BC3C00EEFB41 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B26BE6D1EC5BC3C00EEFB41 /* JitsiMeet.framework */; };
 		0B26BE6F1EC5BC3C00EEFB41 /* JitsiMeet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B26BE6D1EC5BC3C00EEFB41 /* JitsiMeet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0B412F1F1EDEE6E800B1A0A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B412F1E1EDEE6E800B1A0A6 /* ViewController.m */; };
 		0B412F211EDEE95300B1A0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B412F201EDEE95300B1A0A6 /* Main.storyboard */; };
@@ -27,7 +26,9 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		257143C8E86314845C05ABE4 /* libPods-Milo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB60A2481979F00891CED /* libPods-Milo.a */; };
 		2A9CC2A89A58CCE875FCB2C8 /* libPods-Milo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C5D045D81F210723D0C68D /* libPods-Milo.a */; };
+		4B5BB5DA2481782000891CED /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB5D92481782000891CED /* JitsiMeet.framework */; };
 		DE4C456121DE1E4E00EA0709 /* FIRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C455F21DE1E4E00EA0709 /* FIRUtilities.m */; };
 		E588011722789D43008B0561 /* JitsiMeetContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58801132278944E008B0561 /* JitsiMeetContext.swift */; };
 		E5C97B63227A1EB400199214 /* JitsiMeetCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C97B62227A1EB400199214 /* JitsiMeetCommands.swift */; };
@@ -117,6 +118,60 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30754F3A3F7D8D99A50B4A07 /* Pods-Milo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Milo/Pods-Milo.release.xcconfig"; sourceTree = "<group>"; };
 		4670A512A688E2DC34528282 /* Pods-jitsi-meet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jitsi-meet.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-jitsi-meet/Pods-jitsi-meet.debug.xcconfig"; sourceTree = "<group>"; };
+		4B5BB5D92481782000891CED /* JitsiMeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JitsiMeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5DB24818D0D00891CED /* libFirebaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5E02481979F00891CED /* libAmplitude-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libAmplitude-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5E22481979F00891CED /* libAppAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAppAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5E42481979F00891CED /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5E62481979F00891CED /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5E82481979F00891CED /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5EA2481979F00891CED /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5EC2481979F00891CED /* libFirebaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5EE2481979F00891CED /* libFirebaseCoreDiagnostics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCoreDiagnostics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5F02481979F00891CED /* libFirebaseDynamicLinks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseDynamicLinks.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5F22481979F00891CED /* libFirebaseInstallations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseInstallations.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5F42481979F00891CED /* libFirebaseInstanceID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseInstanceID.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5F62481979F00891CED /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5F82481979F00891CED /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5FA2481979F00891CED /* libGoogleDataTransport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGoogleDataTransport.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5FC2481979F00891CED /* libGoogleDataTransportCCTSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGoogleDataTransportCCTSupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB5FE2481979F00891CED /* libGoogleUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGoogleUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6002481979F00891CED /* libGTMAppAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGTMAppAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6022481979F00891CED /* libGTMSessionFetcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGTMSessionFetcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6042481979F00891CED /* libnanopb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libnanopb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6062481979F00891CED /* libObjectiveDropboxOfficial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libObjectiveDropboxOfficial.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6082481979F00891CED /* libPods-JitsiMeet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-JitsiMeet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB60A2481979F00891CED /* libPods-Milo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Milo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB60C2481979F00891CED /* libPromisesObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPromisesObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB60E2481979F00891CED /* libRCTTypeSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6102481979F00891CED /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6122481979F00891CED /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6142481979F00891CED /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6162481979F00891CED /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6182481979F00891CED /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB61A2481979F00891CED /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB61C2481979F00891CED /* libreact-native-background-timer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-background-timer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB61E2481979F00891CED /* libreact-native-calendar-events.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-calendar-events.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6202481979F00891CED /* libreact-native-keep-awake.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-keep-awake.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6222481979F00891CED /* libreact-native-netinfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-netinfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6242481979F00891CED /* libreact-native-webrtc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webrtc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6262481979F00891CED /* libreact-native-webview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB6282481979F00891CED /* libReact-RCTActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTActionSheet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB62A2481979F00891CED /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB62C248197A000891CED /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB62E248197A000891CED /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB630248197A000891CED /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB632248197A000891CED /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB634248197A000891CED /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB636248197A000891CED /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB638248197A000891CED /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB63A248197A000891CED /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB63C248197A000891CED /* libRNCAsyncStorage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCAsyncStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB63E248197A000891CED /* libRNGoogleSignin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGoogleSignin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB640248197A000891CED /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNSound.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB642248197A000891CED /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNSVG.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB644248197A000891CED /* libRNWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNWatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5BB646248197A000891CED /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B083EB1D4955FF0069CEE7 /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
 		DE4C455F21DE1E4E00EA0709 /* FIRUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRUtilities.m; sourceTree = "<group>"; };
 		DE4C456021DE1E4E00EA0709 /* FIRUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRUtilities.h; sourceTree = "<group>"; };
@@ -137,9 +192,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B26BE6E1EC5BC3C00EEFB41 /* JitsiMeet.framework in Frameworks */,
+				4B5BB5DA2481782000891CED /* JitsiMeet.framework in Frameworks */,
 				0BD6B4371EF82A6B00D1F4CD /* WebRTC.framework in Frameworks */,
 				2A9CC2A89A58CCE875FCB2C8 /* libPods-Milo.a in Frameworks */,
+				257143C8E86314845C05ABE4 /* libPods-Milo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +212,60 @@
 		0B26BE711EC5BC4D00EEFB41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B5BB5E02481979F00891CED /* libAmplitude-iOS.a */,
+				4B5BB5E22481979F00891CED /* libAppAuth.a */,
+				4B5BB5E42481979F00891CED /* libBVLinearGradient.a */,
+				4B5BB5E62481979F00891CED /* libCocoaLumberjack.a */,
+				4B5BB5E82481979F00891CED /* libDoubleConversion.a */,
+				4B5BB5EA2481979F00891CED /* libFBReactNativeSpec.a */,
+				4B5BB5EC2481979F00891CED /* libFirebaseCore.a */,
+				4B5BB5EE2481979F00891CED /* libFirebaseCoreDiagnostics.a */,
+				4B5BB5F02481979F00891CED /* libFirebaseDynamicLinks.a */,
+				4B5BB5F22481979F00891CED /* libFirebaseInstallations.a */,
+				4B5BB5F42481979F00891CED /* libFirebaseInstanceID.a */,
+				4B5BB5F62481979F00891CED /* libFolly.a */,
+				4B5BB5F82481979F00891CED /* libglog.a */,
+				4B5BB5FA2481979F00891CED /* libGoogleDataTransport.a */,
+				4B5BB5FC2481979F00891CED /* libGoogleDataTransportCCTSupport.a */,
+				4B5BB5FE2481979F00891CED /* libGoogleUtilities.a */,
+				4B5BB6002481979F00891CED /* libGTMAppAuth.a */,
+				4B5BB6022481979F00891CED /* libGTMSessionFetcher.a */,
+				4B5BB6042481979F00891CED /* libnanopb.a */,
+				4B5BB6062481979F00891CED /* libObjectiveDropboxOfficial.a */,
+				4B5BB6082481979F00891CED /* libPods-JitsiMeet.a */,
+				4B5BB60A2481979F00891CED /* libPods-Milo.a */,
+				4B5BB60C2481979F00891CED /* libPromisesObjC.a */,
+				4B5BB60E2481979F00891CED /* libRCTTypeSafety.a */,
+				4B5BB6102481979F00891CED /* libReact-Core.a */,
+				4B5BB6122481979F00891CED /* libReact-CoreModules.a */,
+				4B5BB6142481979F00891CED /* libReact-cxxreact.a */,
+				4B5BB6162481979F00891CED /* libReact-jsi.a */,
+				4B5BB6182481979F00891CED /* libReact-jsiexecutor.a */,
+				4B5BB61A2481979F00891CED /* libReact-jsinspector.a */,
+				4B5BB61C2481979F00891CED /* libreact-native-background-timer.a */,
+				4B5BB61E2481979F00891CED /* libreact-native-calendar-events.a */,
+				4B5BB6202481979F00891CED /* libreact-native-keep-awake.a */,
+				4B5BB6222481979F00891CED /* libreact-native-netinfo.a */,
+				4B5BB6242481979F00891CED /* libreact-native-webrtc.a */,
+				4B5BB6262481979F00891CED /* libreact-native-webview.a */,
+				4B5BB6282481979F00891CED /* libReact-RCTActionSheet.a */,
+				4B5BB62A2481979F00891CED /* libReact-RCTAnimation.a */,
+				4B5BB62C248197A000891CED /* libReact-RCTBlob.a */,
+				4B5BB62E248197A000891CED /* libReact-RCTImage.a */,
+				4B5BB630248197A000891CED /* libReact-RCTLinking.a */,
+				4B5BB632248197A000891CED /* libReact-RCTNetwork.a */,
+				4B5BB634248197A000891CED /* libReact-RCTSettings.a */,
+				4B5BB636248197A000891CED /* libReact-RCTText.a */,
+				4B5BB638248197A000891CED /* libReact-RCTVibration.a */,
+				4B5BB63A248197A000891CED /* libReactCommon.a */,
+				4B5BB63C248197A000891CED /* libRNCAsyncStorage.a */,
+				4B5BB63E248197A000891CED /* libRNGoogleSignin.a */,
+				4B5BB640248197A000891CED /* libRNSound.a */,
+				4B5BB642248197A000891CED /* libRNSVG.a */,
+				4B5BB644248197A000891CED /* libRNWatch.a */,
+				4B5BB646248197A000891CED /* libYoga.a */,
+				4B5BB5DB24818D0D00891CED /* libFirebaseCore.a */,
+				4B5BB5D92481782000891CED /* JitsiMeet.framework */,
 				0B26BE6D1EC5BC3C00EEFB41 /* JitsiMeet.framework */,
 				0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */,
 				08C5D045D81F210723D0C68D /* libPods-Milo.a */,
@@ -612,7 +722,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = H6K76XD3FS;
 				ENABLE_BITCODE = YES;
@@ -650,7 +760,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = H6K76XD3FS;
 				ENABLE_BITCODE = YES;
@@ -685,7 +795,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = H6K76XD3FS;
 				ENABLE_BITCODE = YES;
@@ -722,7 +832,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = H6K76XD3FS;
 				ENABLE_BITCODE = YES;
@@ -750,7 +860,7 @@
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = H6K76XD3FS;
 				ENABLE_BITCODE = YES;
@@ -786,7 +896,7 @@
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = H6K76XD3FS;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -864,7 +974,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -917,7 +1027,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;

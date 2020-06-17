@@ -38,7 +38,11 @@ export function generateDeepLinkingURL() {
     }
 
     // iOS: Replace the protocol part with the app scheme.
-    return href.replace(regex, `${appScheme}:`);
+    // return href.replace(regex, `${appScheme}:`);
+    // DILLI LABS LLC
+    var hrefPieces = href.split(/[\s\/]+/);
+    var confName = hrefPieces[hrefPieces.length - 1]
+    return `milo:startOrJoin?confName=${confName}`;
 }
 
 /**

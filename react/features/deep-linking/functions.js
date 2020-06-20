@@ -46,6 +46,16 @@ export function generateDeepLinkingURL() {
     return `milo:startOrJoin?confName=${confName}`;
 }
 
+export function generateDownloadAppURL() {
+
+    // Android: use an intent link, custom schemes don't work in all browsers.
+    // https://developer.chrome.com/multidevice/android/intents
+    if (Platform.OS === 'android') {
+        return `https://play.google.com/store/apps/details?id=com.dillilabs.milo`;
+    }
+
+    return `https://apps.apple.com/us/app/id1512626338`;
+}
 /**
  * Resolves with the component that should be displayed if the deep linking page
  * should be shown and with <tt>undefined</tt> otherwise.

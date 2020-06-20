@@ -11,7 +11,7 @@ import { connect } from '../../base/redux';
 import { DialInSummary } from '../../invite';
 import { openWebApp } from '../actions';
 import { _TNS } from '../constants';
-import { generateDeepLinkingURL } from '../functions';
+import { generateDeepLinkingURL, generateDownloadAppURL } from '../functions';
 import { renderPromotionalFooter } from '../renderPromotionalFooter';
 
 declare var interfaceConfig: Object;

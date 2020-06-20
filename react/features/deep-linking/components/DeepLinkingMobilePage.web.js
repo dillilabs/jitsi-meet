@@ -9,7 +9,7 @@ import { Platform } from '../../base/react';
 import { DialInSummary } from '../../invite';
 
 import { _TNS } from '../constants';
-import { generateDeepLinkingURL } from '../functions';
+import { generateDeepLinkingURL, generateDownloadAppURL } from '../functions';
 import { renderPromotionalFooter } from '../renderPromotionalFooter';
 
 declare var interfaceConfig: Object;
@@ -147,14 +147,14 @@ class DeepLinkingMobilePage extends Component<Props> {
                         {/* t(`${_TNS}.openApp`) */}
                         {/* </button> */}
                     {/*</a>*/}
-                    {/*<a
+                    <a
                         { ...onOpenLinkProperties }
-                        href = { this._generateDownloadURL() }
+                        href = { generateDownloadAppURL() }
                         onClick = { this._onDownloadApp }>
                         <button className = { downloadButtonClassName }>
                             { t(`${_TNS}.downloadApp`) }
                         </button>
-                    </a>*/}
+                    </a>
                     <a
                         { ...onOpenLinkProperties }
                         className = { `${_SNS}__href` }

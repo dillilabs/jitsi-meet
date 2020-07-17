@@ -207,7 +207,7 @@ function parseSizeParam(value) {
 /**
  * The IFrame API interface class.
  */
-export default class JitsiMeetExternalAPI extends EventEmitter {
+export default class MiloExternalAPI extends EventEmitter {
     /**
      * Constructs new API instance. Creates iframe and loads Jitsi Meet in it.
      *

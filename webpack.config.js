@@ -262,7 +262,7 @@ module.exports = [
             'external_api': './modules/API/external/index.js'
         },
         output: Object.assign({}, config.output, {
-            library: 'JitsiMeetExternalAPI',
+            library: 'MiloExternalAPI',
             libraryTarget: 'umd'
         }),
         performance: getPerformanceHints(30 * 1024)

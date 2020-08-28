@@ -82,7 +82,9 @@ var interfaceConfig = {
 
     // Enables feedback star animation.
     ENABLE_FEEDBACK_ANIMATION: false,
-    DISABLE_FOCUS_INDICATOR: false,
+    // AH  DISABLE_FOCUS_INDICATOR: false,
+    DISABLE_FOCUS_INDICATOR: true,
+    // AH DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
 
     /**
@@ -106,7 +108,7 @@ var interfaceConfig = {
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
     REMOTE_THUMBNAIL_RATIO: 1, // 1:1
     // Documentation reference for the live streaming feature.
-    LIVE_STREAMING_HELP_LINK: 'https://jitsi.org/live',
+    LIVE_STREAMING_HELP_LINK: 'https://www.dillilabs.com/help-center-milo',
 
     /**
      * Whether the mobile app Jitsi Meet is to be promoted to participants
@@ -129,7 +131,9 @@ var interfaceConfig = {
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://community.jitsi.org/',
+
+    //AH SUPPORT_URL: 'https://community.jitsi.org/',
+    SUPPORT_URL: 'https://miloconference.com/',
 
     /**
      * Whether the connection indicator icon should hide itself based on
@@ -163,7 +167,7 @@ var interfaceConfig = {
      *
      * @type {boolean}
      */
-    VIDEO_QUALITY_LABEL_DISABLED: false,
+    VIDEO_QUALITY_LABEL_DISABLED: true,
 
     /**
      * If true, will display recent list
@@ -195,11 +199,12 @@ var interfaceConfig = {
     /**
      * If true, presence status: busy, calling, connected etc. is not displayed.
      */
-    DISABLE_PRESENCE_STATUS: false,
+    DISABLE_PRESENCE_STATUS: true,
 
     /**
      * If true, notifications regarding joining/leaving are no longer displayed.
      */
+    //AH DISABLE_JOIN_LEAVE_NOTIFICATIONS: false,
     DISABLE_JOIN_LEAVE_NOTIFICATIONS: false,
 
     /**
@@ -245,7 +250,7 @@ var interfaceConfig = {
      * explicitly dismissed through a user action. The value is how long, in
      * milliseconds, those notifications should remain displayed.
      */
-    // ENFORCE_NOTIFICATION_AUTO_DISMISS_TIMEOUT: 15000,
+    ENFORCE_NOTIFICATION_AUTO_DISMISS_TIMEOUT: 5000,
 
     // List of undocumented settings
     /**

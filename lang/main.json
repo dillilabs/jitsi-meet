@@ -292,7 +292,7 @@
         "statusMessage": "is now {{status}}"
     },
     "documentSharing": {
-        "title": "Shared Document"
+        "title": "Whiteboard"
     },
     "e2ee": {
         "labelToolTip": "All participants in this meeting have enabled End-to-End encryption"
@@ -643,8 +643,8 @@
         "callQuality": "Manage video quality",
         "chat": "Open / Close chat",
         "closeChat": "Close chat",
-        "documentClose": "Close shared document",
-        "documentOpen": "Open shared document",
+        "documentClose": "Close Whiteboard",
+        "documentOpen": "Open Whiteboard",
         "download": "Download our apps",
         "e2ee": "End-to-End Encryption",
         "enterFullScreen": "View full screen",

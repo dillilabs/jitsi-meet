@@ -313,7 +313,7 @@
         "statusMessage": "is now {{status}}"
     },
     "documentSharing": {
-        "title": "Shared Document"
+        "title": "Whiteboard"
     },
     "e2ee": {
         "labelToolTip": "Audio and Video Communication on this call is end-to-end encrypted"
@@ -741,8 +741,8 @@
         "callQuality": "Manage video quality",
         "chat": "Open / Close chat",
         "closeChat": "Close chat",
-        "documentClose": "Close shared document",
-        "documentOpen": "Open shared document",
+        "documentClose": "Close Whiteboard",
+        "documentOpen": "Open Whiteboard",
         "download": "Download our apps",
         "e2ee": "End-to-End Encryption",
         "embedMeeting": "Embed meeting",

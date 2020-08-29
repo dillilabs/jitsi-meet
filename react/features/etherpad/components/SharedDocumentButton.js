@@ -4,7 +4,7 @@ import type { Dispatch } from 'redux';
 
 import { createToolbarEvent, sendAnalytics } from '../../analytics';
 import { translate } from '../../base/i18n';
-import { IconShareDoc } from '../../base/icons';
+import { IconWhiteboard } from '../../base/icons';
 import { connect } from '../../base/redux';
 import { AbstractButton, type AbstractButtonProps } from '../../base/toolbox';
 
@@ -29,7 +29,7 @@ type Props = AbstractButtonProps & {
  */
 class SharedDocumentButton extends AbstractButton<Props, *> {
     accessibilityLabel = 'toolbar.accessibilityLabel.document';
-    icon = IconShareDoc;
+    icon = IconWhiteboard;
     label = 'toolbar.documentOpen';
     toggledLabel = 'toolbar.documentClose';
 

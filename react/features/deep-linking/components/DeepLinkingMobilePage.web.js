@@ -186,32 +186,39 @@ class DeepLinkingMobilePage extends Component<Props> {
      * @returns {string} - The URL for downloading the app.
      */
     _generateDownloadURL() {
-        const { _downloadUrl: url } = this.props;
+        // const { _downloadUrl: url } = this.props;
 
-        if (url && typeof interfaceConfig.MOBILE_DYNAMIC_LINK === 'undefined') {
-            return url;
+        // if (url && typeof interfaceConfig.MOBILE_DYNAMIC_LINK === 'undefined') {
+        //     return url;
+        // }
+
+        // // For information about the properties of
+        // // interfaceConfig.MOBILE_DYNAMIC_LINK check:
+        // // https://firebase.google.com/docs/dynamic-links/create-manually
+        // const {
+        //     APN = 'org.jitsi.meet',
+        //     APP_CODE = 'w2atb',
+        //     CUSTOM_DOMAIN = undefined,
+        //     IBI = 'com.atlassian.JitsiMeet.ios',
+        //     ISI = '1165103905'
+        // } = interfaceConfig.MOBILE_DYNAMIC_LINK || {};
+
+        // const domain = CUSTOM_DOMAIN ?? `https://${APP_CODE}.app.goo.gl`;
+        // const IUS = interfaceConfig.APP_SCHEME || 'org.jitsi.meet';
+
+        // return `${domain}/?link=${
+        //     encodeURIComponent(window.location.href)}&apn=${
+        //     APN}&ibi=${
+        //     IBI}&isi=${
+        //     ISI}&ius=${
+        //     IUS}&efr=1`;
+        // Android: use an intent link, custom schemes don't work in all browsers.
+        // https://developer.chrome.com/multidevice/android/intents
+        if (Platform.OS === 'android') {
+            return `https://play.google.com/store/apps/details?id=com.dillilabs.milo`;
         }
 
-        // For information about the properties of
-        // interfaceConfig.MOBILE_DYNAMIC_LINK check:
-        // https://firebase.google.com/docs/dynamic-links/create-manually
-        const {
-            APN = 'org.jitsi.meet',
-            APP_CODE = 'w2atb',
-            CUSTOM_DOMAIN = undefined,
-            IBI = 'com.atlassian.JitsiMeet.ios',
-            ISI = '1165103905'
-        } = interfaceConfig.MOBILE_DYNAMIC_LINK || {};
-
-        const domain = CUSTOM_DOMAIN ?? `https://${APP_CODE}.app.goo.gl`;
-        const IUS = interfaceConfig.APP_SCHEME || 'org.jitsi.meet';
-
-        return `${domain}/?link=${
-            encodeURIComponent(window.location.href)}&apn=${
-            APN}&ibi=${
-            IBI}&isi=${
-            ISI}&ius=${
-            IUS}&efr=1`;
+        return `https://apps.apple.com/us/app/id1512626338`;
     }
 
     _onDownloadApp: () => void;

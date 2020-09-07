@@ -19,12 +19,9 @@ var interfaceConfig = {
 
     // if watermark is disabled by default, it can be shown only for guests
     SHOW_WATERMARK_FOR_GUESTS: true,
-    BRAND_WATERMARK_LINK: '',
     SHOW_POWERED_BY: false,
     SHOW_DEEP_LINKING_IMAGE: false,
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: false,
-    DISPLAY_WELCOME_PAGE_CONTENT: true,
-    DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: true,
     APP_NAME: 'Milo',
     NATIVE_APP_NAME: 'Milo',
     PROVIDER_NAME: 'Milo',
@@ -71,7 +68,7 @@ var interfaceConfig = {
     /**
      * If true, notifications regarding joining/leaving are no longer displayed.
      */
-    DISABLE_JOIN_LEAVE_NOTIFICATIONS: true,
+    DISABLE_JOIN_LEAVE_NOTIFICATIONS: false,
 
     /**
      * If true, presence status: busy, calling, connected etc. is not displayed.
@@ -92,7 +89,7 @@ var interfaceConfig = {
      *
      * @type {boolean}
      */
-    DISABLE_TRANSCRIPTION_SUBTITLES: false,
+    DISABLE_TRANSCRIPTION_SUBTITLES: true,
 
     /**
      * Whether or not the blurred video background for large video should be
@@ -101,9 +98,9 @@ var interfaceConfig = {
     DISABLE_VIDEO_BACKGROUND: false,
 
     DISPLAY_WELCOME_PAGE_CONTENT: true,
-    DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
+    DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: true,
 
-    ENABLE_DIAL_OUT: true,
+    ENABLE_DIAL_OUT: false,
 
     ENABLE_FEEDBACK_ANIMATION: false, // Enables feedback star animation.
 
